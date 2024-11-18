@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fce4ec; /* Warna latar belakang pastel pink */
+    color: #880e4f; /* Warna teks gelap untuk kontras */
+}
+
+header {
+    background: #f48fb1; /* Warna header pastel pink */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff80ab; /* Warna hover lebih terang */
+}
+
+main {
+    padding: 30px;
+    background: #ffffff; /* Latar belakang konten utama putih */
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #f48fb1; /* Warna footer pastel pink */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #f48fb1; /* Garis bawah berwarna pink pastel */
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+a {
+    color: #880e4f; /* Warna link gelap */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
